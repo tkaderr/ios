@@ -97,6 +97,7 @@ class Player {
 let newdeck = Deck()
 newdeck.shuffle()
 newdeck.shuffle()
+print(newdeck.cards)
 var bill = Player(name: "bill")
 bill.draw(deck:newdeck)
 bill.draw(deck:newdeck)

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="coldcall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx7-b7-77O">
+                                <rect key="frame" x="37.5" y="64" width="300" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Pxz-uK-gz4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsQ-pS-CBT">
+                                <rect key="frame" x="137.5" y="530" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Tda-Pq-Qts"/>
+                                </constraints>
+                                <state key="normal" title="Cold Call"/>
+                                <connections>
+                                    <action selector="coldcallbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mDs-Tm-2ok"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cr4-8n-Idx">
+                                <rect key="frame" x="156.5" y="323" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cr4-8n-Idx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="01m-IV-mji"/>
+                            <constraint firstItem="UsQ-pS-CBT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DTP-m0-QRc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UsQ-pS-CBT" secondAttribute="bottom" constant="107" id="Q6M-Mg-eJy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UsQ-pS-CBT" secondAttribute="trailing" constant="121.5" id="Qn3-Rf-XYS"/>
+                            <constraint firstItem="zx7-b7-77O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WEa-de-Kjq"/>
+                            <constraint firstItem="UsQ-pS-CBT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="121.5" id="eGd-8B-iH3"/>
+                            <constraint firstItem="Cr4-8n-Idx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eWJ-xU-qCt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zx7-b7-77O" secondAttribute="trailing" constant="21.5" id="k7d-S4-sq6"/>
+                            <constraint firstItem="zx7-b7-77O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="rNy-FE-PXH"/>
+                            <constraint firstItem="zx7-b7-77O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21.5" id="zsJ-TE-Cuj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coldcalllabel" destination="UsQ-pS-CBT" id="tTJ-2K-NDe"/>
+                        <outlet property="namelabel" destination="zx7-b7-77O" id="VIb-9r-cOf"/>
+                        <outlet property="numberlabel" destination="Cr4-8n-Idx" id="JjQ-OF-MiD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-796" y="10.344827586206897"/>
+        </scene>
+    </scenes>
+</document>
