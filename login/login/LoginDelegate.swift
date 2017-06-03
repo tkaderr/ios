@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+protocol LoginDelegate: class {
+    func cancelbuttonpressed(by controller: UIViewController)
+    func signupbuttonpressed(by controller: UIViewController, userdata: [String])
+}

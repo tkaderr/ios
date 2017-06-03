@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+class CustomCell: UITableViewCell {
+    
+    var delegate: IsBeastDelegate?
+    
+    @IBOutlet weak var buttonlabel: UIButton!
+    
+    @IBAction func beastbutton(_ sender: UIButton) {
+        print(sender.tag)
+        let path = sender.tag
+        delegate?.beastbuttonpressed(by: self, path:path)
+    }
+    
+    @IBOutlet weak var beastlabel: UILabel!
+    
+}

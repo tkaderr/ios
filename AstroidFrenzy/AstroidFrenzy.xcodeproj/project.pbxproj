@@ -135,7 +135,7 @@
 				TargetAttributes = {
 					E11E93631EE08FC200223C80 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3BQXHZHCLF;
+						DevelopmentTeam = C7W8PMLSUN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -314,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3BQXHZHCLF;
+				DEVELOPMENT_TEAM = C7W8PMLSUN;
 				INFOPLIST_FILE = AstroidFrenzy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TahimKader.AstroidFrenzy;
@@ -330,7 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3BQXHZHCLF;
+				DEVELOPMENT_TEAM = C7W8PMLSUN;
 				INFOPLIST_FILE = AstroidFrenzy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TahimKader.AstroidFrenzy;

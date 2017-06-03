@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11E935A1EDFBF1200223C80 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11E93591EDFBF1200223C80 /* MainMenuScene.swift */; };
+		E149B7B71EDF6EDE00828CBB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E149B7B61EDF6EDE00828CBB /* spark.png */; };
+		E149B7B91EDF70DD00828CBB /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E149B7B81EDF70DD00828CBB /* theBoldFont.ttf */; };
+		E149B7BB1EDF933100828CBB /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149B7BA1EDF933100828CBB /* GameOverScene.swift */; };
 		E1956C4D1EDF1BB5007F6569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1956C4C1EDF1BB5007F6569 /* AppDelegate.swift */; };
 		E1956C4F1EDF1BB5007F6569 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1956C4E1EDF1BB5007F6569 /* GameScene.sks */; };
 		E1956C511EDF1BB5007F6569 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1956C501EDF1BB5007F6569 /* Actions.sks */; };
@@ -15,9 +19,16 @@
 		E1956C581EDF1BB5007F6569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1956C561EDF1BB5007F6569 /* Main.storyboard */; };
 		E1956C5A1EDF1BB5007F6569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1956C591EDF1BB5007F6569 /* Assets.xcassets */; };
 		E1956C5D1EDF1BB5007F6569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1956C5B1EDF1BB5007F6569 /* LaunchScreen.storyboard */; };
+		E1956C651EDF3A4C007F6569 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1956C641EDF3A4C007F6569 /* torpedo.mp3 */; };
+		E1956C671EDF3BA3007F6569 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1956C661EDF3BA3007F6569 /* explosion.mp3 */; };
+		E1956C691EDF3BAE007F6569 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1956C681EDF3BAE007F6569 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E11E93591EDFBF1200223C80 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		E149B7B61EDF6EDE00828CBB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E149B7B81EDF70DD00828CBB /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		E149B7BA1EDF933100828CBB /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		E1956C491EDF1BB5007F6569 /* solomission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solomission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1956C4C1EDF1BB5007F6569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1956C4E1EDF1BB5007F6569 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +39,9 @@
 		E1956C591EDF1BB5007F6569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1956C5C1EDF1BB5007F6569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1956C5E1EDF1BB5007F6569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1956C641EDF3A4C007F6569 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		E1956C661EDF3BA3007F6569 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		E1956C681EDF3BAE007F6569 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +78,14 @@
 				E1956C4E1EDF1BB5007F6569 /* GameScene.sks */,
 				E1956C501EDF1BB5007F6569 /* Actions.sks */,
 				E1956C521EDF1BB5007F6569 /* GameScene.swift */,
+				E11E93591EDFBF1200223C80 /* MainMenuScene.swift */,
+				E149B7BA1EDF933100828CBB /* GameOverScene.swift */,
 				E1956C541EDF1BB5007F6569 /* GameViewController.swift */,
+				E1956C681EDF3BAE007F6569 /* Starfield.sks */,
+				E1956C661EDF3BA3007F6569 /* explosion.mp3 */,
+				E1956C641EDF3A4C007F6569 /* torpedo.mp3 */,
+				E149B7B61EDF6EDE00828CBB /* spark.png */,
+				E149B7B81EDF70DD00828CBB /* theBoldFont.ttf */,
 				E1956C561EDF1BB5007F6569 /* Main.storyboard */,
 				E1956C591EDF1BB5007F6569 /* Assets.xcassets */,
 				E1956C5B1EDF1BB5007F6569 /* LaunchScreen.storyboard */,
@@ -105,6 +126,7 @@
 				TargetAttributes = {
 					E1956C481EDF1BB5007F6569 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3BQXHZHCLF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,9 +155,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1956C581EDF1BB5007F6569 /* Main.storyboard in Resources */,
+				E149B7B71EDF6EDE00828CBB /* spark.png in Resources */,
 				E1956C4F1EDF1BB5007F6569 /* GameScene.sks in Resources */,
+				E1956C691EDF3BAE007F6569 /* Starfield.sks in Resources */,
 				E1956C5A1EDF1BB5007F6569 /* Assets.xcassets in Resources */,
 				E1956C5D1EDF1BB5007F6569 /* LaunchScreen.storyboard in Resources */,
+				E149B7B91EDF70DD00828CBB /* theBoldFont.ttf in Resources */,
+				E1956C671EDF3BA3007F6569 /* explosion.mp3 in Resources */,
+				E1956C651EDF3A4C007F6569 /* torpedo.mp3 in Resources */,
 				E1956C511EDF1BB5007F6569 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11E935A1EDFBF1200223C80 /* MainMenuScene.swift in Sources */,
 				E1956C531EDF1BB5007F6569 /* GameScene.swift in Sources */,
 				E1956C551EDF1BB5007F6569 /* GameViewController.swift in Sources */,
+				E149B7BB1EDF933100828CBB /* GameOverScene.swift in Sources */,
 				E1956C4D1EDF1BB5007F6569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +301,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BQXHZHCLF;
 				INFOPLIST_FILE = solomission/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.solomission;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -284,11 +315,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BQXHZHCLF;
 				INFOPLIST_FILE = solomission/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.solomission;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -311,6 +344,7 @@
 				E1956C631EDF1BB5007F6569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

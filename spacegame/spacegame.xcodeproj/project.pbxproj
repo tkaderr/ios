@@ -15,6 +15,10 @@
 		E1C803F11EDE27FC000056EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C803EF1EDE27FC000056EE /* Main.storyboard */; };
 		E1C803F31EDE27FC000056EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C803F21EDE27FC000056EE /* Assets.xcassets */; };
 		E1C803F61EDE27FC000056EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C803F41EDE27FC000056EE /* LaunchScreen.storyboard */; };
+		E1C803FE1EDE2A30000056EE /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1C803FD1EDE2A30000056EE /* MyParticle.sks */; };
+		E1C804011EDE2ADD000056EE /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1C803FF1EDE2ADD000056EE /* Explosion.sks */; };
+		E1C804021EDE2ADD000056EE /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1C804001EDE2ADD000056EE /* Starfield.sks */; };
+		E1C804041EDE2AF3000056EE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C804031EDE2AF3000056EE /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		E1C803F21EDE27FC000056EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C803F51EDE27FC000056EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C803F71EDE27FC000056EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C803FD1EDE2A30000056EE /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		E1C803FF1EDE2ADD000056EE /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		E1C804001EDE2ADD000056EE /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		E1C804031EDE2AF3000056EE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +71,11 @@
 				E1C803E51EDE27FC000056EE /* AppDelegate.swift */,
 				E1C803E71EDE27FC000056EE /* GameScene.sks */,
 				E1C803E91EDE27FC000056EE /* Actions.sks */,
+				E1C803FD1EDE2A30000056EE /* MyParticle.sks */,
 				E1C803EB1EDE27FC000056EE /* GameScene.swift */,
+				E1C803FF1EDE2ADD000056EE /* Explosion.sks */,
+				E1C804001EDE2ADD000056EE /* Starfield.sks */,
+				E1C804031EDE2AF3000056EE /* spark.png */,
 				E1C803ED1EDE27FC000056EE /* GameViewController.swift */,
 				E1C803EF1EDE27FC000056EE /* Main.storyboard */,
 				E1C803F21EDE27FC000056EE /* Assets.xcassets */,
@@ -133,9 +145,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C803F11EDE27FC000056EE /* Main.storyboard in Resources */,
+				E1C804041EDE2AF3000056EE /* spark.png in Resources */,
+				E1C803FE1EDE2A30000056EE /* MyParticle.sks in Resources */,
+				E1C804021EDE2ADD000056EE /* Starfield.sks in Resources */,
 				E1C803E81EDE27FC000056EE /* GameScene.sks in Resources */,
 				E1C803F31EDE27FC000056EE /* Assets.xcassets in Resources */,
 				E1C803F61EDE27FC000056EE /* LaunchScreen.storyboard in Resources */,
+				E1C804011EDE2ADD000056EE /* Explosion.sks in Resources */,
 				E1C803EA1EDE27FC000056EE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

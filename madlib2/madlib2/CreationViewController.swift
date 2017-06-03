@@ -9,7 +9,33 @@
 import UIKit
 
 class CreationViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var firsttext: UITextField!
+    @IBOutlet weak var secondtext: UITextField!
+    @IBOutlet weak var thirdtext: UITextField!
+    @IBOutlet weak var fourthtext: UITextField!
+    
+    var delegate: CreationDelegate?
+    var arr = [String]()
+    
+    
+    @IBAction func cancelbutton(_ sender: UIBarButtonItem) {
+        delegate?.cancelbuttonpressed(controller:self)
+    }
+    
+  
+    @IBAction func savebutton(_ sender: UIBarButtonItem) {
+        arr.append(firsttext.text!)
+        arr.append(secondtext.text!)
+        arr.append(thirdtext.text!)
+        arr.append(fourthtext.text!)
+    
+        delegate?.savebuttonpressed(controller:self, text: arr)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

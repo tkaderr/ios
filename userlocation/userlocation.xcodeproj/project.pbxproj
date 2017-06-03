@@ -12,6 +12,7 @@
 		E14F1A701ECE2A5100F0D58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14F1A6E1ECE2A5100F0D58C /* Main.storyboard */; };
 		E14F1A721ECE2A5100F0D58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14F1A711ECE2A5100F0D58C /* Assets.xcassets */; };
 		E14F1A751ECE2A5100F0D58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14F1A731ECE2A5100F0D58C /* LaunchScreen.storyboard */; };
+		E14F1A7E1ECE2AB300F0D58C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14F1A7D1ECE2AB300F0D58C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E14F1A711ECE2A5100F0D58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14F1A741ECE2A5100F0D58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14F1A761ECE2A5100F0D58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14F1A7D1ECE2AB300F0D58C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14F1A7E1ECE2AB300F0D58C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				E14F1A691ECE2A5100F0D58C /* userlocation */,
 				E14F1A681ECE2A5100F0D58C /* Products */,
+				E14F1A7C1ECE2AB300F0D58C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				E14F1A761ECE2A5100F0D58C /* Info.plist */,
 			);
 			path = userlocation;
+			sourceTree = "<group>";
+		};
+		E14F1A7C1ECE2AB300F0D58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14F1A7D1ECE2AB300F0D58C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					E14F1A661ECE2A5100F0D58C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3BQXHZHCLF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,9 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BQXHZHCLF;
 				INFOPLIST_FILE = userlocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.userlocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.map2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3BQXHZHCLF;
 				INFOPLIST_FILE = userlocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.userlocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.map2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

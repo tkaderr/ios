@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+protocol AddItemDelegate: class {
+    func cancelbuttonpressed(by controller: UIViewController)
+    func savebuttonpressed(by controller: UIViewController, title: String, desc: String, date: Date)
+}

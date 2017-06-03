@@ -12,6 +12,8 @@
 		E12F10051ECD35D60047D7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12F10031ECD35D60047D7FE /* Main.storyboard */; };
 		E12F10071ECD35D60047D7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12F10061ECD35D60047D7FE /* Assets.xcassets */; };
 		E12F100A1ECD35D60047D7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12F10081ECD35D60047D7FE /* LaunchScreen.storyboard */; };
+		E12F10121ECD37740047D7FE /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F10111ECD37740047D7FE /* CreationViewController.swift */; };
+		E12F10141ECD385A0047D7FE /* madlibdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F10131ECD385A0047D7FE /* madlibdelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E12F10061ECD35D60047D7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E12F10091ECD35D60047D7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12F100B1ECD35D60047D7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12F10111ECD37740047D7FE /* CreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
+		E12F10131ECD385A0047D7FE /* madlibdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = madlibdelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E12F0FFF1ECD35D60047D7FE /* AppDelegate.swift */,
 				E12F10011ECD35D60047D7FE /* ViewController.swift */,
 				E12F10031ECD35D60047D7FE /* Main.storyboard */,
+				E12F10131ECD385A0047D7FE /* madlibdelegate.swift */,
+				E12F10111ECD37740047D7FE /* CreationViewController.swift */,
 				E12F10061ECD35D60047D7FE /* Assets.xcassets */,
 				E12F10081ECD35D60047D7FE /* LaunchScreen.storyboard */,
 				E12F100B1ECD35D60047D7FE /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				E12F10021ECD35D60047D7FE /* ViewController.swift in Sources */,
 				E12F10001ECD35D60047D7FE /* AppDelegate.swift in Sources */,
+				E12F10121ECD37740047D7FE /* CreationViewController.swift in Sources */,
+				E12F10141ECD385A0047D7FE /* madlibdelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

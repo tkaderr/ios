@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+protocol CreationDelegate: class {
+    func cancelbuttonpressed(controller: UIViewController)
+    func savebuttonpressed(controller: UIViewController, text: [String])
+}

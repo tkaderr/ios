@@ -7,3 +7,21 @@
 //
 
 import Foundation
+import UIKit
+
+
+
+protocol customcelldelegate: class {
+    func cancelbuttonpressed(by controller: UIViewController)
+    func savebuttonpressed(by controller: UIViewController, title: String, descrip: String, date: Date)
+}
+
+
+class customcell: UITableViewCell {
+    @IBOutlet weak var titlelabel: UILabel!
+    
+    @IBOutlet weak var descriptionlabel: UILabel!
+    
+    @IBOutlet weak var datelabel: UILabel!
+    
+}
